@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles.css">
+    <title>HTML & CSS</title
+  </head>
+  <body>
+    <nav id="navbar">
+      <header id="Menu">Menu</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#HTML_Elements">HTML Elements</a>
+        <a class="nav-link" href="#CSS_Basics">CSS Basics</a>
+        <a class="nav-link" href="#Advanced_HTML_and_CSS">Advanced HTML and CSS</a>
+        <a class="nav-link" href="#Best_Practices_and_Troubleshooting">Best Practices and Troubleshooting</a>
+    </nav>
+
+    <div class="content">
+    <main id="main-doc">
+      <h1>HTML & CSS</h1>
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>
+          <div class="title">Overview</div>
+          <br>HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are the foundational technologies for building and designing web pages. HTML provides the structure, while CSS defines the styling and layout.<br>
+
+          <br><div class="title">Purpose</div>
+          <br>This documentation provides a comprehensive guide to HTML elements and CSS properties, enabling users to create and style web pages effectively.
+        </p>
+      </section>
+      <section class="main-section" id="HTML_Elements">
+        <header>HTML Elements</header>
+        <p>
+          <div class="title">Basic Structure</div>
+          <br>HTML documents consist of elements that define the structure and content of a web page. Here's the basic structure of an HTML document:<br>
+          <br><code>!DOCTYPE html<br>
+            html<br>
+            h1 Hello World /h1<br>
+            /html<br>
+          </code><br>
+          <div class="title">Common Elements</div>
+          <p>These are the most common elements in HTML:
+          <ul>
+            <li>Headings: h1, h2, h3...</li>
+            <li>Paragraphs: p</li>
+            <li>Links: a href=""</li>
+            <li>Images: img src="" alt=""</li>
+          </ul>
+          <br>
+          </p>
+      </section>
+      <section class="main-section" id="CSS_Basics">
+        <header>CSS Basics</header>
+          <br><div class="title">Syntax and Selectors</div>
+         <p><br>CSS is used to style HTML elements. The basic syntax of CSS includes selectors and declarations.<br>
+          <br><code>selector {<br>
+          property: value;<br>
+          }</code></p>
+        <p>Selectors target HTML elements:<br>
+          <br><code>p {<br>
+          color: black;<br>
+          }</code></p>
+        <p>Classes and IDs apply styles to specific elements.<br>
+          <br><code>.paragraph {<br>
+          background-color: #454545;<br>
+          }</code><br>
+        </p>
+        <p>
+          <div class="title">Common Properties</div><br>
+          <ul>
+            <li>Color and Background</li>
+            <li>Font and text<br>
+              <code>h1 {<br>
+              font-family: Arial, sans-serif;<br>
+              font-size: 2em;<br>
+              text-align: center;<br>
+              }</code><br></li>
+            <li>Box Model<br>
+              <code>div {<br>
+              margin: 10px;<br>
+              padding: 20px;<br>
+              border: 1px solid #ccc;<br>
+              }</code><br></li>
+          </ul>
+        </p>
+      </section>
+      <section class="main-section" id="Advanced_HTML_and_CSS">
+        <header>Advanced HTML and CSS</header>
+        <br><div class="title">HTML5 Elements</div>
+          <p>HTML5 includes new semantic elements to enhance the structure and readability of web content. Elements like header, footer, article, and section provide meaningful divisions within a document. header typically contains introductory content or navigational links, footer includes footer information, article represents a self-contained composition like a blog post, and section groups related content together. These elements improve accessibility and help search engines better understand the content of a webpage.<br></p>
+          <br><div class="title">CSS Layouts</div>
+          <p>Advanced CSS layout techniques such as Flexbox and Grid enable more efficient and responsive web designs. Flexbox is ideal for one-dimensional layouts, arranging items in a row or column, while Grid is suited for two-dimensional layouts, controlling both rows and columns. Flexbox excels in distributing space within a container and aligning items flexibly. Grid provides precise control over the placement and sizing of elements, supporting complex layouts without the need for float-based or positioning hacks. These methods simplify the creation of adaptive designs that work well across various screen sizes.<br></p>
+      </section>
+      <section class="main-section" id="Best_Practices_and_Troubleshooting">
+        <header>Best Practices and Troubleshooting</header>
+        <br><div class="title">Best Practices</div>
+          <p>Adopting best practices ensures web pages are accessible, maintainable, and optimized. Semantic HTML improves accessibility and SEO by using elements according to their intended purpose, such as headings, paragraphs, and lists. Responsive design is crucial, ensuring web pages look and function well on all devices by using fluid grids, flexible images, and media queries. This approach enhances user experience and search engine rankings.<br></p>
+          <br><div class="title">Troubleshooting</div>
+          <p>Effective troubleshooting involves validating HTML and using browser developer tools for CSS. HTML validation tools check for errors and compliance with web standards, ensuring reliable cross-browser performance. Developer tools allow inspection and live-editing of CSS, helping identify and resolve styling issues. Understanding CSS specificity and cascade rules is essential for diagnosing why certain styles aren't applied as expected. These practices help maintain high-quality, functional web pages.
+        </p>
+      </section>
+    </main>
+    </div>
+  </body>
+</html>

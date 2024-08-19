@@ -1,0 +1,75 @@
+* {
+    background-color: #021526;
+  
+    font-family: Verdana;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 10px;
+    width: 200px;
+    height: 100vh;
+    background-color: #021526;
+    overflow: auto;
+    border-right: solid 2px #2D2D2D;
+  }
+  
+  #navbar header{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding: 14px;
+    color: white;
+  }
+  
+  #navbar a {
+    display: block;
+    color: #F2C700;
+    text-align: left;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover{
+    color: #021526;
+    background-color: white;
+  }
+  
+  .content {
+    margin-left: 200px;
+    padding: 16px;
+    color: #CECECE;
+  }
+  
+  code {
+    display: inline-block; /* Ensures the code element is treated like a block for padding and border */
+    background-color: #2e2e2e; /* Dark background color for contrast */
+    color: #f8f8f2; /* Light text color for readability */
+    border: 1px solid #444; /* Thin border around the code box */
+    border-radius: 4px; /* Optional: Slightly round the corners */
+    padding: 4px 8px; /* Add padding inside the box */
+    font-family: "Courier New", Courier, monospace; /* Use a monospace font for code */
+    font-size: 0.95em; /* Slightly smaller font size */
+    margin: 10px;
+  }
+  
+  main header, h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .title {
+    font-size: 20px;
+    color: white !important;
+  }
+  
+  @media (max-width: 600px) {
+  
+    #navbar header{
+      font-size: 0px;
+   
+    }
+  
+  }
